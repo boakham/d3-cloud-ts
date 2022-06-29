@@ -15,7 +15,7 @@
   },
   "license": "BSD-3-Clause",
   "author": {
-    "name": "Benjamin Oakham",
+    "name": "Benjamin Oakham"
   },
   "main": "build/d3-cloud.js",
   "module": "index",
@@ -25,6 +25,6 @@
     "url": "https://github.com/boakham/d3-cloud-ts.git"
   },
   "dependencies": {
-    "d3-dispatch": "^7.5.0"
+    "d3-dispatch": "^1.0.6"
   }
 }
