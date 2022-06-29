@@ -24,9 +24,6 @@
     "type": "git",
     "url": "https://github.com/boakham/d3-cloud-ts.git"
   },
-  "scripts": {
-    "build": "mkdir -p build && browserify --standalone d3-cloud-ts index.js > build/d3-cloud-ts.js"
-  },
   "dependencies": {
     "d3-dispatch": "^7.5.0"
   }
