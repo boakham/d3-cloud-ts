@@ -1,0 +1,31 @@
+{
+  "name": "d3-cloud-ts",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/d3-cloud-ts.mjs",
+  "es2020": "fesm2020/d3-cloud-ts.mjs",
+  "esm2020": "esm2020/d3-cloud-ts.mjs",
+  "fesm2020": "fesm2020/d3-cloud-ts.mjs",
+  "fesm2015": "fesm2015/d3-cloud-ts.mjs",
+  "typings": "d3-cloud-ts.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./d3-cloud-ts.d.ts",
+      "esm2020": "./esm2020/d3-cloud-ts.mjs",
+      "es2020": "./fesm2020/d3-cloud-ts.mjs",
+      "es2015": "./fesm2015/d3-cloud-ts.mjs",
+      "node": "./fesm2015/d3-cloud-ts.mjs",
+      "default": "./fesm2020/d3-cloud-ts.mjs"
+    }
+  },
+  "sideEffects": false
+}
