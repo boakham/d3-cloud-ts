@@ -9,6 +9,10 @@
     "visualization",
     "canvas"
   ],
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build"
+  },
   "license": "BSD-3-Clause",
   "author": {
     "name": "Benjamin Oakham",
