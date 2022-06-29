@@ -1,7 +1,7 @@
 {
-  "name": "d3-cloud",
+  "name": "d3-cloud-ts",
   "version": "1.2.5",
-  "description": "Generate word clouds in JavaScript.",
+  "description": "Generate word clouds in TypeScript.",
   "keywords": [
     "word",
     "cloud",
@@ -9,26 +9,21 @@
     "visualization",
     "canvas"
   ],
-  "homepage": "https://www.jasondavies.com/wordcloud/",
   "license": "BSD-3-Clause",
   "author": {
-    "name": "Jason Davies",
-    "url": "https://www.jasondavies.com/"
+    "name": "Benjamin Oakham",
   },
-  "main": "build/d3.layout.cloud.js",
+  "main": "build/d3-cloud.js",
   "module": "index",
   "jsnext:main": "index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasondavies/d3-cloud.git"
+    "url": "https://github.com/boakham/d3-cloud-ts.git"
   },
   "scripts": {
-    "build": "mkdir -p build && browserify --standalone d3.layout.cloud index.js > build/d3.layout.cloud.js"
+    "build": "mkdir -p build && browserify --standalone d3-cloud-ts index.js > build/d3-cloud-ts.js"
   },
   "dependencies": {
-    "d3-dispatch": "^1.0.3"
-  },
-  "devDependencies": {
-    "browserify": "^11.2.0"
+    "d3-dispatch": "^7.5.0"
   }
 }
