@@ -1,13 +1,35 @@
 {
   "name": "d3-cloud-ts",
-  "version": "0.0.1",
+  "version": "1.2.10",
   "peerDependencies": {
     "@angular/common": "^13.3.0",
-    "@angular/core": "^13.3.0"
+    "@angular/core": "^13.3.0",
+    "d3-dispatch": "^1.0.6"
   },
   "dependencies": {
     "tslib": "^2.3.0"
   },
+  "files": [
+    "*"
+  ],
+  "description": "Tag Cloud based on jasondavies/d3-cloud",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boakham/d3-cloud-ts.git"
+  },
+  "keywords": [
+    "word",
+    "cloud",
+    "tag",
+    "visualization",
+    "canvas"
+  ],
+  "author": "Benjamin Oakham",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/boakham/d3-cloud-ts/issues"
+  },
+  "homepage": "https://github.com/boakham/d3-cloud-ts#readme",
   "module": "fesm2015/d3-cloud-ts.mjs",
   "es2020": "fesm2020/d3-cloud-ts.mjs",
   "esm2020": "esm2020/d3-cloud-ts.mjs",
