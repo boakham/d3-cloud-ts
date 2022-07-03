@@ -1,6 +1,6 @@
 {
   "name": "d3-cloud-ts",
-  "version": "1.2.10",
+  "version": "1.2.14",
   "peerDependencies": {
     "@angular/common": "^13.3.0",
     "@angular/core": "^13.3.0",

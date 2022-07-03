@@ -13,6 +13,7 @@
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "project": "projects/d3-cloud-ts/ng-package.json"
+
           },
           "configurations": {
             "production": {
